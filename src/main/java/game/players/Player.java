@@ -1,5 +1,5 @@
 package game.players;
 
 public abstract class Player {
-    private int healthPoint;
+    private int healthPoints;
 }
