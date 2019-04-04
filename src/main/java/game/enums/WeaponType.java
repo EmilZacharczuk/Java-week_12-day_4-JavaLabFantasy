@@ -10,4 +10,8 @@ public enum WeaponType {
     WeaponType(int points) {
         this.points = points;
     }
+
+    public int getPoints() {
+        return this.points;
+    }
 }

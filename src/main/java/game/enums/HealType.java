@@ -9,4 +9,8 @@ public enum HealType {
     HealType(int points) {
         this.points = points;
     }
+
+    public int getPoints() {
+        return this.points;
+    }
 }
